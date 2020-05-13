@@ -174,16 +174,18 @@ color:dimgrey;
 	opacity:0.8;
 }
 
-.skillstext{
-	font-family: 'Dosis', sans-serif;
-	color:white;
+.link{
+	text-decoration:none;
+	color:inherit;
 }
+
 
 
 .skillsheaders{
 	color:lightseagreen;
-	font-family: 'Dosis', sans-serif;
+	
 }
+
 @media (max-width:400px){
 
 .text{
