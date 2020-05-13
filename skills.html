@@ -1,26 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> Contact </title>
+	<title> Skills </title>
 
 		<link rel = "stylesheet" type = "text/css" href= "style.css"/>
-	<link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Playfair+Display+SC&display=swap">
-    <link rel = "stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+	
+    
   
-       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-      <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
-
-    <style>
-	@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
-	</style>
-    <style>
-	@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC&display=swap');
-	</style>
-
-	 <style>
-	@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-	</style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  
     	<meta charset = "UTF-8">
 	<meta name = "description" content= "A website that includes all of my prototyping, programming
 	and general engineering experience.">
@@ -31,18 +20,17 @@
 
 </head>
 <body>
-	
 <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
   <a class="navbar-brand" href="/index.html">
-  	<img src = "logo.png" width="100" alt="logo">
+    <img class="noimage"src = "logo.png" width="100" alt="logo">
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
+      <li class="nav-item">
+        <a class="nav-link" href="/index.html">Home</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="/About.html">About Me</a>
@@ -54,33 +42,63 @@
         <a class="nav-link" href="/skills.html">Skills</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/contact.html">Contact</a>
+        <a class="nav-link" href="mailto:a2seo@uwaterloo.ca"> <i class="fas fa-envelope"></i></a>
       </li>
-      
+       <li class="nav-item">
+        <a class="nav-link" href="https://www.linkedin.com/in/andrew-seo-9968881a9/"><i class="fab fa-linkedin"></i></a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="/contact.html"><i class="fas fa-phone-square-alt"></i></a>
+      </li>      
     </ul>
   </div>
 </nav>
 	<main id ="swup" class ="transition-fade">
-
-
-
 	</br>
 <div class = "container">
-<h1 class= "skillstext"> Front-End <h1>
+<h1 class= "skillsheaders"><strong> Programming </strong></h1>
+</br>
+  <h3 class ="default"> <i>Front-End </i></h3>
+  <ul class="default">
+    <li><p>Strong skills with grid layouts, styling, and overall creative website designs with intermediate level HTML and CSS that flow together.</p></li>
+    <li><p>Familiar with creating various user interfaces and smooth animations using Javascript and JQuery</p> </li>
+    <li><p> Learning to make GUI applications with QT </p></li>
+  </ul>
 
-<h2 class="skillstext"> Strong skills with grid layouts, styling, and overall creative website designs with intermediate level HTML and CSS that flow together. <h2>
+<h3 class= "default"><i> Back-End</i> </h3>
+  <ul class="default">
+    <li><p>Familiar with NodeJs and NPM</p></li>
+    <li><p>Increasing fluency in Git, Bash, ExpressJS, and MongoDB</p></li>
+  </ul>
 
-<h2 class="skillstext"> Familiar with creating various user interfaces and smooth animations using Javascript and JQuery <h2>
+<h3 class= "default"> <i>Embedded Programming</i> </h3>
+  <ul class="default">
+    <li><p>Experienced with C++ and C</p></li>
+    <li><p>Adept with file I/O, sensor input (IR, color, touch, ultrasonic, etc...), motor encoders and timers</p></li>
+   
+      </ul>
+</br>
+<h1 class= "skillsheaders"><strong> CAD </strong></h1>
+</br>
+<ul class="default">
+    <li><p>Strong 3D CAD abilities with proficiency in AutoCAD, SolidEdge, and SolidWorks</p></li>
+    <li><p>Currently learning TinkerCAD</p></li>
+  </ul>
 
-<h1 class= "skillstext"> Back-End <h1>
+</br>
+</br>
+</br>
 
-<h2 class="skillstext">  Familiar with NodeJs and NPM<h2>
+
 
 
 
 	
 </div>
 </main>
-
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 </body>
 </html>

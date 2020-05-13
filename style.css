@@ -62,7 +62,6 @@ body {
 
 .navbar .navbar-nav li a{
 	color:white;
-
 }
 
 .navbar {
@@ -136,7 +135,7 @@ body {
 	
 }
 .myButton:hover {
-	background-color:green;
+	background-color:lightgreen;
 	color:grey;
 	text-decoration: none;
 }
@@ -178,4 +177,56 @@ color:dimgrey;
 .skillstext{
 	font-family: 'Dosis', sans-serif;
 	color:white;
+}
+
+
+.skillsheaders{
+	color:lightseagreen;
+	font-family: 'Dosis', sans-serif;
+}
+@media (max-width:400px){
+
+.text{
+
+	text-align: center;
+	font-size: 3em;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: lighter;
+	color: lightgrey;
+	
+	margin-bottom:30px;
+	margin-top:50px;
+
+	
+
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.5),
+					0px 8px 13px rgba(0,0,0,0.7),
+					0px 18px 23px rgba(0,0,0,0.7);
+}
+
+
+.myButton:link{
+	background-color:mediumspringgreen;
+	border-radius:28px;
+	border:2px solid black;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family: 'Open Sans', sans-serif;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	margin-right: 25px;
+	margin-left:25px;
+	margin-bottom:20px;	
+}
+
+.noimage{
+	display:none;
+}
+.jumbotron h1{
+	font-size:20px;
+	
+}
+
 }
