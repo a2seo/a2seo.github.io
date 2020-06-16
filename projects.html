@@ -3,26 +3,15 @@
 <head>
 	<title> Projects </title>
 
-		<link rel = "stylesheet" type = "text/css" href= "style.css"/>
-	<link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Playfair+Display+SC&display=swap">
-    <link rel = "stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel = "stylesheet" type = "text/css" href= "style.css"/>
+	
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" type="text/css" rel="stylesheet">
-    <style>
-	@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC&display=swap');
-	</style>
-
-	 <style>
-	@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-	</style>
-    	<meta charset = "UTF-8">
+    <meta charset = "UTF-8">
 	<meta name = "description" content= "A website that includes all of my prototyping, programming
 	and general engineering experience.">
 	<meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
-	<script  src="https://unpkg.com/swup@latest/dist/swup.min.js"></script> 
-	<script  src = "script.js"> </script>
-	<script  src="https://kit.fontawesome.com/653296b562.js" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	
 
 </head>
@@ -64,24 +53,25 @@
   </div>
 </nav>
 
-<main id ="swup">
+<main >
 
 </br>
+
 <div class = "container" style="margin-bottom:150px;">
 	<div class = "row">
-		<div class = "col-lg-12 col-md-6 transition-left" >
+		<div class = "col-lg-12 col-md-6" data-aos="fade-right" >
 			<h1 class = "default"> CampFind Full-Stack Website </h1>
 			<h2 class = "default"><i>2020-Ongoing </i> </h2>
 			</br>
 		</div>
-		<div class = "col-lg-8 col-md-6 transition-left" >
+		<div class = "col-lg-8 col-md-6" data-aos="fade-right" >
 			<div class = "portrait">
 				<img src="CampFind.png" class="img-thumbnail" width="2000">
 					
 			</div>
 		</div>
 
-	<div class = "col-lg-4 col-md-6 transition-right">
+	<div class = "col-lg-4 col-md-6" data-aos="fade-left">
 
 		<p class = "default">
 	  The picture shown is an in-progress photo of this website. The final product will be a crowd-sourced local campground review and social networking site, where users can see postings about different campgrounds, what they're rated, and comments. The front-end design includes HTML, CSS, and Javascript.The website also includes back-end features such as comments, login and password,and user postings. ExpressJS is used for the NodeJS framework. MongoDB is used to create and connect different databases to store and exchange information. Lastly, PassportJS is used to integrate authorization and authentication features such as login and passwords.
@@ -89,12 +79,14 @@
 	</div>
 	<div style="margin:15px">
 
-		<p class = "default transition-right">
+		<p class = "default" data-aos="fade-up">
 		While proving to be my most difficult project to date, I've learned a great deal about back-end programming. This project helped me become familiar with technologies that are necessary for building a fully functioning website. Once the project is completed I'll be proud to say that I'm on my way to being a full-stack developer.
 
 		</p>
 	</div>
 </div>
+
+
 </br>
 </br>
 </br>
@@ -232,15 +224,15 @@
 </div>
 </main>
 
- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script  src="https://kit.fontawesome.com/653296b562.js" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
  <script>
     AOS.init({
-    	duration:700,
-    	offset:75
+      duration:700,
+      offset:0
+     
     });
   </script>
 </body>

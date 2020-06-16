@@ -17,7 +17,9 @@
 }
 
 
-
+.hidden{
+	display:none;
+}
 .transition-right{
 	opacity: 1;
 	transition: 1000ms;
@@ -185,6 +187,8 @@ color:dimgrey;
 	color:lightseagreen;
 	
 }
+
+
 
 @media (max-width:400px){
 

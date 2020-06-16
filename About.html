@@ -3,26 +3,16 @@
 <head>
 	<title> About </title>
 
-		<link rel = "stylesheet" type = "text/css" href= "style.css"/>
-	<link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Playfair+Display+SC&display=swap">
-    <link rel = "stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+	<link rel = "stylesheet" type = "text/css" href= "style.css"/>
+	
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <style>
-	@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC&display=swap');
-	</style>
-
-	 <style>
-	@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-	</style>
-    	<meta charset = "UTF-8">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" type="text/css" rel="stylesheet">
+    <meta charset = "UTF-8">
 	<meta name = "description" content= "A website that includes all of my prototyping, programming
 	and general engineering experience.">
 	<meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-	<script defer src="https://unpkg.com/swup@latest/dist/swup.min.js"></script> 
-	<script defer src = "script.js"> </script>
-	<script defer src="https://kit.fontawesome.com/653296b562.js" crossorigin="anonymous"></script>
 
 </head>
 
@@ -63,18 +53,19 @@
 </nav>
 	
 
-<main id ="swup">
+<main>
 
 </br>
+<div >
 <div class = "container">
 <div class = "row">
 		<div class = "col-lg-6 col-md-6">
 			<div class = "portrait">
-				<img src="flowerboy.jpg" class="img-thumbnail transition-left">
+				<img src="flowerboy.jpg" class="img-thumbnail" data-aos="fade-right">
 					
 			</div>
 		</div>
-<div class = "col-lg-6 col-md-6 transition-right">
+<div class = "col-lg-6 col-md-6" data-aos="fade-left">
 	<h1 class = "default">
 	Who I Am
 	</h1>
@@ -89,15 +80,15 @@
 	</p>
 
 </div>
-<div style="margin:15px">
+<div style="margin:15px" data-aos="fade-up">
 
-	<p class = "default transition-right">
+	<p class ="default">
 	  Now that I've taken the first steps towards my dream, I've made even more goals, including being an adept full-stack developer. I love that as a developer I can express myself and others' style in a way that is practical and much needed in today's society. As a hardworking and creative individual, I spend most of my time learning about how I can make better, more sophisticated code to develop apps and interactive software for my community to enjoy. 
 	 </p>
-	 <p class = "default transition-right">
+	 <p class = "default">
 	  When I'm not programming or studying, I spend my free time playing sports, hanging out with friends, and watching shows on Netflix-of course.
 	</p>
-	<p class = "default transition-right">
+	<p class = "default">
 	  In the future,I want to use my abilities to make myself and others happy. With such an insurgence in technology, apps, and websites over the past decade there are endless ways to ameliorate people's lives. Whether it be from making apps that can detect a user's heartrate to help them reach their fitness goals, or a dating app that can help couples pick their next dates, there is always a way to help make lives easier and more entertaining as a developer. Great things come from small ideas and I plan to leave my mark on the world in any which way I can.
 	</p>
 </div>
@@ -108,9 +99,18 @@
 </br>
 </br>
 </div>
+</div>
 </main>
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script  src="https://kit.fontawesome.com/653296b562.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script>
+    AOS.init({
+      duration:700,
+      
+    });
+  </script>
 </body>
 </html>
